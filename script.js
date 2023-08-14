@@ -168,7 +168,6 @@ function displayErrorMessage() {
 
 // Event listener for Start Tracking button
 startTrackingBtn.addEventListener("click", () => {
-  console.log("find obj", allWeek[weekSelect.value]);
   const { startDate, endDate } = allWeek[weekSelect.value];
   fetchWeatherData(startDate, endDate);
 });

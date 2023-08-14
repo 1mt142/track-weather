@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Tracking App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <form id="weatherForm">
       <select id="weekSelect"></select>
-      <button type="button" id="startTracking">Start Tracking</button>
+      <div class="button-container">
+        <button type="button" id="startTracking">Start Tracking</button>
+      </div>
     </form>
-    <div id="tableContainer"></div>
+    <div id="tableContainer" class="responsive-table"></div>
     <script src="script.js"></script>
   </body>
 </html>
